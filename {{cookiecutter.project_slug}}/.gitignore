@@ -1,0 +1,37 @@
+.DS_Store
+
+# mortality files
+# put other folders with identifiable data here
+data/mortality/
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# RStudio files
+.Rproj.user/
+
+# Rendered reports
+analysis/*.html
+analysis/*.docx
+analysis/*.pdf
+docs/*.html
+docs/*.docx
+docs/*.pdf
+
+# output files
+output/
+
+# knitr and R markdown default cache directories
+/analysis/cache/
+/analysis/figures/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# RStudio
+.Rproj.user

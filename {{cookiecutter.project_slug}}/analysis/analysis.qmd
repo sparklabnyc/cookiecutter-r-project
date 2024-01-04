@@ -1,0 +1,29 @@
+---
+title: "Analysis"
+author:
+ - name: "{{cookiecutter.author}}"
+   email: "{{cookiecutter.email}}"
+institute: "{{cookiecutter.institute}}"
+date: "{{cookiecutter.start_date}}"
+format:
+  html:
+    toc: true
+---
+
+```{r libaries, cache = FALSE}
+library(tidyverse)
+```
+
+```{r source, cache = FALSE}
+
+```
+
+## Introduction
+
+Here is what I am going to do...
+
+## Session info
+
+```{r session-info, cache = FALSE}
+devtools::session_info()
+```

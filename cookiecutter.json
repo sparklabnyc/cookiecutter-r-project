@@ -1,0 +1,11 @@
+{
+    "project_name": "project name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "version": "0.0.1",
+    "author": "Robbie M Parks",
+    "email": "robbie.parks@columbia.edu",
+    "institute": "Columbia University, Mailman School of Public Health",
+    "github_user": "rmp15",
+    "project_desc": "Project description",
+    "start_date": "{% now 'utc', '%Y-%m-%d' %}"
+}
