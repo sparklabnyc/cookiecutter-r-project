@@ -6,7 +6,7 @@ Template for analysis project in R.
 
 1. Create a new environment install cookiecutter with `mamba create --name cookiecutter-env cookiecutter pre-commit`.
 2. Activate this environment and run `cookiecutter gh:sparklabnyc/cookiecutter-r-project`.
-3. Run `pre-commit install` to set up the hooks.
+3. `cd` into the project and run `git init` and `pre-commit install` to set up the hooks.
 
 ## Credits
 
