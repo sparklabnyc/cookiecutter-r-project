@@ -24,6 +24,8 @@ Findings:
 ```md
 .
 ├── .gitignore
+├── .pre-commit-config.yaml
+├── .github/workflows/pre-commit.yml
 ├── README.md
 ├── renv.lock
 ├── renv
