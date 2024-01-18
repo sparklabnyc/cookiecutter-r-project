@@ -1,4 +1,4 @@
-Version: {{cookiecutter.version}}
+Version: 1.0
 
 RestoreWorkspace: No
 SaveWorkspace: No
@@ -12,5 +12,4 @@ Encoding: UTF-8
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
-AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
