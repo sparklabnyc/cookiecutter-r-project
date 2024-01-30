@@ -35,9 +35,10 @@ Findings:
 ├── R
 │   ├── model.R
 │   ├── preprocessing.R
+│   └── utils.R
 ├── output
 ├── analysis
-│   ├── analysis.qmd
+│   └── analysis.qmd
 └── reports
 ```
 
@@ -47,6 +48,7 @@ Findings:
 |            | `shapefile.json`  | Shapefile                                              |
 | `R`        | `preprocessing.R` | Data preprocessing steps                               |
 |            | `model.R`         | Model                                                  |
+|            | `utils.R`         | Common reusable R functions                            |
 | `output`   | `processed.csv`   | Modelled data                                          |
 | `analysis` | `analysis.qmd`    | Main data analysis for finding X                       |
 | `reports`  | `paper.docx`      | Final paper                                            |
